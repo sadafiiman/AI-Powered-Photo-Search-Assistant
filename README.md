@@ -55,16 +55,9 @@ PostgreSQL (JSONB storage)
 
 ## 🐳 Setup (Docker)
 
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/your-username/photo-search-assistant.git
-cd photo-search-assistant
-```
-
 ---
 
-### 2. Create .env file
+### 1. Create .env file
 
 ```bash
 DB_HOST=postgres
@@ -79,14 +72,14 @@ OPENAI_API_KEY=your_openai_key
 ```
 ---
 
-### 3. Build and run
+### 2. Build and run
 
 ```bash
 docker-compose up --build
 ```
 ---
 
-### 4. API will be available at
+### 3. API will be available at
 
 ```bash
 4. API will be available at
